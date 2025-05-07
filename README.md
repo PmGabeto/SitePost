@@ -1,12 +1,8 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto simples criado enquanto eu estava aprendendo os conceitos básicos de React com JavaScript. A ideia principal foi entender como funciona a estrutura de um projeto em React, como criar componentes reutilizáveis e como tornar uma página mais dinâmica usando os recursos que o React oferece, como o estado (useState) e a renderização reativa.
 
-Currently, two official plugins are available:
+Durante o desenvolvimento, explorei como estruturar a aplicação com pastas organizadas, separar os componentes e montar uma interface básica que responde a interações do usuário, como cliques em botões que alteram o conteúdo exibido. Tudo foi feito utilizando JavaScript moderno (ES6+), sem TypeScript, para focar nos fundamentos do React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O projeto foi iniciado com uma ferramenta de build simples (como o Vite, por exemplo), o que me permitiu ter um ambiente rápido de desenvolvimento e testar minhas ideias de forma prática. O principal aprendizado foi entender como o React pensa: em componentes, estados e atualizações de interface de forma eficiente.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+A página construída mostra uma mensagem e permite que o usuário interaja com a interface, fazendo com que o conteúdo mude dinamicamente conforme as ações dele. Esse tipo de interação reforçou meu entendimento sobre como o React lida com eventos e como é possível usar o estado para controlar o comportamento da interface.
